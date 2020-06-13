@@ -38,3 +38,5 @@ b) Од multipleCondition:
 -Првите четири теста се во врска со следниот if: (user.getUsername()==null || user.getPassword()==null) и ги разгледувам сите можни комбинации на исходите, односно кога (username = null, password = null ), (username = null, password != null ),
 (username != null, password = null ) и (username != null, password != null ).
 -Потоа следните 8 теста се за следниот if: (!digit || !upper || !special) и исто како предходните тестови и овде ги разледувам сите можни комбинации каде што ги има 2^3 односно 8.
+
+Во функцијата function, променливата allUsers нема никакво влијание ( значи може да биде што било ), исто така и Email во класата User нема никакво влијание ( може да биде што било ).
